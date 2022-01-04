@@ -3,8 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <title>Gradle Spring Demo</title>
+    <link rel="stylesheet" th:href="@{/styles.css}"/>
 </head>
 <body>
-  <h1 th:text="${message}">Hello, I'm A Simple  Gradle Spring Demo App</h1>
+    <div class="main-section">
+        <div>
+            <h1 class="title" th:text="${message}">Hello, I'm A Simple  Gradle Spring Demo App</h1>
+        </div>
+        <div class="content_demo">
+            <p>
+                Integer non augue tellus. Vestibulum augue ipsum, ultricies pharetra ipsum in, convallis commodo odio.
+                Etiam eleifend imperdiet fringilla. Mauris sit amet egestas justo. Nullam feugiat laoreet aliquam.
+                Curabitur rutrum pellentesque dolor vel placerat. Phasellus massa purus, tempus quis ipsum at, aliquam
+                viverra turpis. Phasellus auctor nulla in ligula commodo, id interdum tellus tempor. Nulla faucibus mauris
+                in lectus malesuada tincidunt. Donec malesuada a lacus vitae porta. Morbi non lectus tempus, molestie
+                ante sed, venenatis massa. Donec nisi mi, iaculis maximus pretium et, scelerisque id metus. Sed congue
+                orci ac velit rhoncus hendrerit. Maecenas et augue at elit faucibus ornare. Maecenas porttitor interdum
+                purus.
+            </p>
+        </div>
+        <div class="footer_section">
+            <footer>
+                <p>Created by Marinel</p>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
